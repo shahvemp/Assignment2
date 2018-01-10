@@ -32,9 +32,9 @@
      Item:<input type="text" ng-model="newitemname" placeholder="enter item">
      Quantity:<input type="number" ng-model="newitemquantity" ng-pattern="/^[0-9]/" required placeholder="enter quantity">
      <button ng-click="addItem()"> Add Item</button>
-     <h3> Bought List</h3>
+     
      <div ng-if="boughtlist.length==0">
-        
+        <h3> Bought List</h3>
         Nothing Bought yet
       </div>
      <ul>
